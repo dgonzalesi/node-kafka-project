@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "create-topic": "./create_topics.sh",
+        "produce": "node producer.js",
+        "consume": "node consumer.js"
+    },
+    "dependencies": {
+        "kafka-node": "^5.0.0"
+    }
+}
